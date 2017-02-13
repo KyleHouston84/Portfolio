@@ -1,0 +1,89 @@
+[
+  {
+    "key": "skout",
+    "title": "SKOUT Backcountry",
+    "screen": ".images/screens/SKOUT.jpg",
+    "text1": "Ecom site",
+    "url" : "http://skout-store.herokuapp.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "icon": "/images/icons/angular.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/images/icons/mongo.png"
+      },
+      {
+        "name": "Node.js",
+        "icon": "/images/icons/node.png"
+      },
+      {
+        "name": "SASS",
+        "icon": "/images/icons/sass.png"
+      },
+      {
+        "name": "gulp",
+        "icon": "/images/icons/gulp.png"
+      }
+    ]
+  },
+  {
+    "key": "PDXCleanEats",
+    "title": "PDX Clean Eats",
+    "screen": ".images/screens/clean-eats.jpg",
+    "text1": "Search portland area resturants inspection records",
+    "url" : "http://www.pdxcleaneats.com/",
+    "technologies": [
+      {
+        "name": "Node.js",
+        "icon": "/images/icons/node.png"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "/images/icons/bootstrap.png"
+      },
+      {
+        "name": "Google Maps API",
+        "icon": "/images/icons/google-maps.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/images/icons/mongo.png"
+      },
+      {
+        "name": "CivicApps API",
+        "icon": "/images/icons/civicapps.png"
+      }
+    ]
+  },
+  {
+    "key": "LM",
+    "title": "Live Monumental",
+    "screen": ".images/screens/keen-LM.jpg",
+    "text1": "Ecom site",
+    "url" : "http://www.keenfootwear.com/livemonumental",
+    "technologies": [
+      {
+        "name": "Bootstrap",
+        "icon": "/images/icons/bootstrap.png"
+      },
+      {
+        "name": "SASS",
+        "icon": "/images/icons/sass.png"
+      },
+      {
+        "name": "Google Maps API",
+        "icon": "/images/icons/google-maps.png"
+      },
+      {
+        "name": "YouTube API",
+        "icon": "/images/icons/google-maps.png"
+      },
+      {
+        "name": "Postano",
+        "icon": "/images/icons/postano.png"
+      }
+    ]
+  }
+]
