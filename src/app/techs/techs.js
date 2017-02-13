@@ -1,11 +1,19 @@
 class TechsController {
   /** @ngInject */
-  constructor($http) {
+  constructor($http, $scope) {
     $http
       .get('app/techs/techs.json')
       .then(response => {
         this.techs = response.data;
       });
+    $scope.currentView = '';
+    $scope.filter = function (view) {
+      if (view === 'all') {
+        $scope.currentView = '';
+      } else {
+        $scope.currentView = view;
+      }
+    };
   }
 }
 

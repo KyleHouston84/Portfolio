@@ -1,0 +1,54 @@
+section.skills {
+  height: auto;
+  min-height: 100vh;
+}
+.techs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.card {
+  width: 250px;
+  .tech {
+    display: block;
+    text-align: center;
+    position: relative;
+    &:hover {
+      .tech-description {
+        opacity: 1;
+        top: 0;
+        background: rgba(255,255,255,0.85);
+      }
+    }
+  }
+  .tech-description {
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+}
+.tech-logo {
+  max-width: 200px;
+  min-height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}

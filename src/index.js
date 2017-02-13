@@ -3,6 +3,8 @@ import angular from 'angular';
 import {techsModule} from './app/techs/index';
 import {worksModule} from './app/work/index';
 
+// import {parallax} from './app/directives/parallax';
+
 import {main} from './app/main';
 import {header} from './app/header';
 import {title} from './app/title';

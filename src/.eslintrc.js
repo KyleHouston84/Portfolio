@@ -3,6 +3,8 @@ module.exports = {
     'angular'
   ],
   rules: {
+    "angular/di": [0],
+    "angular/log": "off",
     'angular/no-service-method': 0
   }
 }
