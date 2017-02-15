@@ -3,7 +3,7 @@ import angular from 'angular';
 import {techsModule} from './app/techs/index';
 import {worksModule} from './app/work/index';
 
-// import {parallax} from './app/directives/parallax';
+import {parallax} from './app/directives/parallax';
 
 import {main} from './app/main';
 import {header} from './app/header';
@@ -15,7 +15,7 @@ import {footer} from './app/footer';
 import './stylesheets/index.scss';
 
 angular
-  .module('app', [techsModule, worksModule])
+  .module('app', [techsModule, worksModule, parallax])
   .component('app', main)
   .component('portfolioHeader', header)
   .component('portfolioTitle', title)

@@ -2,7 +2,7 @@
   {
     "key": "skout",
     "title": "SKOUT Backcountry",
-    "screen": ".images/screens/SKOUT.jpg",
+    "screen": "/assets/images/screens/skout.jpg",
     "text1": "Ecom site",
     "url" : "http://skout-store.herokuapp.com",
     "technologies": [
@@ -35,7 +35,7 @@
   {
     "key": "PDXCleanEats",
     "title": "PDX Clean Eats",
-    "screen": ".images/screens/clean-eats.jpg",
+    "screen": "/assets/images/screens/pdxcleaneats.jpg",
     "text1": "Search portland area resturants inspection records",
     "url" : "http://www.pdxcleaneats.com/",
     "technologies": [
@@ -68,7 +68,7 @@
   {
     "key": "LM",
     "title": "Live Monumental",
-    "screen": ".images/screens/keen-LM.jpg",
+    "screen": "/assets/images/screens/keenLM.jpg",
     "text1": "Ecom site",
     "url" : "http://www.keenfootwear.com/livemonumental",
     "technologies": [
@@ -97,7 +97,7 @@
   {
     "key": "nwwaf",
     "title": "NW Washington Fair & Event Center",
-    "screen": ".images/screens/nwwaf.jpg",
+    "screen": "/assets/images/screens/nwwfair.jpg",
     "text1": "Saffire Client",
     "url" : "http://nwwafair.com/",
     "technologies": [
@@ -118,7 +118,7 @@
   {
     "key": "showare",
     "title": "Showare Center",
-    "screen": ".images/screens/showare.jpg",
+    "screen": "/assets/images/screens/showare.jpg",
     "text1": "Saffire Client",
     "url" : "http://www.showarecenter.com/",
     "technologies": [
@@ -147,7 +147,7 @@
   {
     "key": "pembroke",
     "title": "Pembroke Pines City Center",
-    "screen": ".images/screens/pembroke.jpg",
+    "screen": "/assets/images/screens/pembroke.jpg",
     "text1": "Saffire Client",
     "url" : "http://www.pembrokepinescitycenter.org/",
     "technologies": [
@@ -176,7 +176,7 @@
   {
     "key": "uopx",
     "title": "University of Pheonix Stadium",
-    "screen": ".images/screens/uopx.jpg",
+    "screen": "/assets/images/screens/uopx.jpg",
     "text1": "Saffire Client",
     "url" : "http://www.universityofphoenixstadium.com/",
     "technologies": [

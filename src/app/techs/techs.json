@@ -112,6 +112,14 @@
     "level": 99
   },
   {
+    "key": "asp.net",
+    "type": "other",
+    "title": "ASP.NET",
+    "logo": "/assets/images/tech/msnet.png",
+    "text1": "ASP.NET is an open-source server-side web application.",
+    "level": 31
+  },
+  {
     "key": "sketch",
     "type": "other",
     "title": "Sketch",

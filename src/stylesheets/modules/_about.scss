@@ -12,24 +12,22 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 40px;
 }
 
-.intro {
-  &::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
+.introduction {
+  display: flex;
+  flex-direction: row;
 }
 
 .headshot {
   display: inline-block;
   width: 200px;
   height: 200px;
+  flex-shrink: 0;
   background: url(/assets/images/me5.jpg) no-repeat center;
   background-size: 120%;
   overflow: hidden;
   border-radius: 50%;
-  float: left;
   margin-right: 2.5%;
 }
