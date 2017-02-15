@@ -84,3 +84,17 @@
     }
   }
 }
+.dark {
+  .main-nav {
+    ul a::after {
+      border: 2px solid #fff;
+    }
+  }
+}
+.light {
+  .main-nav {
+    ul a::after {
+      border: 2px solid #000;
+    }
+  }
+}
