@@ -1,11 +1,12 @@
-<header class="header">
+<header navigation class="header">
   <nav class="main-nav">
     <ul class="navigation-menu">
-      <li class="current"><a href="JavaScript:void(0)" class="dot"><span>Intro</span></a></li>
-      <li><a href="JavaScript:void(0)" class="dot"><span>About Me</span></a></li>
-      <li><a href="JavaScript:void(0)" class="dot"><span>Skills</span></a></li>
-      <li><a href="JavaScript:void(0)" class="dot"><span>Portfolio</span></a></li>
-      <li><a href="JavaScript:void(0)" class="dot"><span>Contact Me</span></a></li>
+      <li ng-class="{current: currentSection === 'intro'}"><a href="JavaScript:void(0)" ng-click="navTo('intro')" class="dot"><span>Intro</span></a></li>
+      <li ng-class="{current: currentSection === 'about'}"><a href="JavaScript:void(0)" ng-click="navTo('about')" class="dot"><span>About Me</span></a></li>
+      <li ng-class="{current: currentSection === 'skills'}"><a href="JavaScript:void(0)" ng-click="navTo('skills')" class="dot"><span>Skills</span></a></li>
+      <li ng-class="{current: currentSection === 'portfolio'}"><a href="JavaScript:void(0)" ng-click="navTo('portfolio')" class="dot"><span>Portfolio</span></a></li>
+      <li ng-class="{current: currentSection === 'contact'}"><a href="JavaScript:void(0)" ng-click="navTo('contact')" class="dot"><span>Contact Me</span></a></li>
     </ul>
+    {{ currentSection }}
   </nav>
 </header>

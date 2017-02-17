@@ -7,28 +7,20 @@ class ScrollerDirective {
     this.scope = true;
   }
 
-  controller() {}
-
   link(scope, elem, $rootScope) {
     let winHeight = 0;
-    // const sections = 5;
 
     function setHeight() {
       winHeight = window.innerHeight;
-      console.log(winHeight, elem);
-      console.log("root", $rootScope);
       checkPos();
     }
 
     function checkPos() {
       const scrollPos = window.pageYOffset;
-      console.log("scrollPos", scrollPos);
       if (scrollPos < (winHeight / 2)) {
         elem.removeClass('light');
         elem.addClass('dark');
-      } else if (scrollPos < winHeight) {
-        $rootScope.section = "intro";
-      } else if (scrollPos < ((winHeight * 2) - (winHeight / 2))) {
+      } else if (scrollPos < winHeight * 2) {
         elem.removeClass('dark');
         elem.addClass('light');
       } else if (scrollPos < (winHeight * 2)) {
