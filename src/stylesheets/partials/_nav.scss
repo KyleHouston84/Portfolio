@@ -38,7 +38,6 @@
         }
       }
 
-      &.current,
       &:hover {
         span {
           opacity: 1;
@@ -95,6 +94,116 @@
   .main-nav {
     ul a::after {
       border: 2px solid #000;
+    }
+  }
+}
+
+.section-intro {
+  .main-nav {
+    li#nav-intro {
+      span {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+
+        &::after {
+          width: 29px;
+          opacity: 1;
+        }
+      }
+
+      a::after {
+        border: 2px solid $secondary-color;
+        background: $secondary-color;
+      }
+    }
+  }
+}
+
+.section-about {
+  .main-nav {
+    li#nav-about {
+      span {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+
+        &::after {
+          width: 29px;
+          opacity: 1;
+        }
+      }
+
+      a::after {
+        border: 2px solid $secondary-color;
+        background: $secondary-color;
+      }
+    }
+  }
+}
+
+.section-skills {
+  .main-nav {
+    li#nav-skills {
+      span {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+
+        &::after {
+          width: 29px;
+          opacity: 1;
+        }
+      }
+
+      a::after {
+        border: 2px solid $secondary-color;
+        background: $secondary-color;
+      }
+    }
+  }
+}
+
+.section-portfolio {
+  .main-nav {
+    li#nav-portfolio {
+      span {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+
+        &::after {
+          width: 29px;
+          opacity: 1;
+        }
+      }
+
+      a::after {
+        border: 2px solid $secondary-color;
+        background: $secondary-color;
+      }
+    }
+  }
+}
+
+.section-contact {
+  .main-nav {
+    li#nav-contact {
+      span {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+
+        &::after {
+          width: 29px;
+          opacity: 1;
+        }
+      }
+
+      a::after {
+        border: 2px solid $secondary-color;
+        background: $secondary-color;
+      }
     }
   }
 }

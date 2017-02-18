@@ -10,17 +10,11 @@ class NavigationDirective {
     console.log("constructor root", $scope);
   }
 
-  link(scope, elem, rootScope) {
-    rootScope.currentSection = 'intro';
-
+  link(scope) {
     scope.navTo = function (section) {
-      rootScope.currentSection = section;
       const target = document.getElementById(section).offsetTop;
-      console.log("target", target);
       $("html, body").animate({scrollTop: target}, 1000);
     };
-
-    // angular.element(window).bind('load', sectionHeight);
   }
 }
 
