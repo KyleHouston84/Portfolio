@@ -29,10 +29,13 @@ class ScrollerDirective {
         scope.section = 'section-about';
         console.log(scope.shade);
       } else if (scrollPos < (winHeight * 3) - offset) {
+        scope.shade = 'dark';
         scope.section = 'section-skills';
       } else if (scrollPos < (winHeight * 4) - offset) {
+        scope.shade = 'light';
         scope.section = 'section-portfolio';
       } else if (scrollPos < (winHeight * 5) - offset) {
+        // scope.shade = 'dark';
         scope.section = 'section-contact';
       }
       scope.$apply();

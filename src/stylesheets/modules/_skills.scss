@@ -1,6 +1,11 @@
+$background: #18222F; //was rgba(0, 0, 0, 0.8)
+$tech-background: #151e2a;
+
 section.skills {
   height: auto;
   min-height: 100vh;
+  background: $background;
+  color: #fff;
 }
 .techs {
   display: -webkit-box;
@@ -10,6 +15,11 @@ section.skills {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+.filter-buttons {
+  .button {
+    color:#fff;
+  }
 }
 .card {
   width: 120px;
@@ -46,10 +56,15 @@ section.skills {
   }
 }
 .tech-logo {
-  max-width: 200px;
-  min-height: 100px;
+  width: 6.5em;
+  height: 6.5em;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+  background-size: 54%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: $tech-background;
 }
