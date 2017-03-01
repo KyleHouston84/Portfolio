@@ -1,4 +1,4 @@
-$background: #18222F; //was rgba(0, 0, 0, 0.8)
+$background: #18222F; /*was rgba(0, 0, 0, 0.8)*/
 $tech-background: #151e2a;
 
 section.skills {
@@ -24,6 +24,7 @@ section.skills {
 .card {
   width: 120px;
   margin: 10px;
+  text-align: center;
   .tech {
     display: block;
     text-align: center;
@@ -67,4 +68,47 @@ section.skills {
   overflow: hidden;
   border-radius: 50%;
   background-color: $tech-background;
+  box-shadow: 0 0 18px #0a0f15;
+  position: relative;
+  z-index: 5;
+}
+.progress-bar {
+  position: absolute;
+  width: 112px;
+  background: $secondary-color;
+  height: 56px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  z-index: 0;
+  -webkit-transition: all 1s ease 0.6s;
+  transition: all 1s ease 0.6s;
+}
+.progress-label {
+  position: absolute;
+  top: 0;
+  left: -32px;
+  color: rgba(255,255,255,0.4);
+  opacity: 1;
+  -webkit-transition: all 1s ease 0.6s;
+  transition: all 1s ease 0.6s;
+}
+.main-container:not(.section-skills) {
+  .progress-bar {
+    transform: rotate(0) !important;
+  }
+  .progress-label {
+    opacity: 0;
+  }
+}
+.progress-mask {
+  position: absolute;
+  bottom: -7px;
+  width: 119px;
+  height: 59px;
+  background: #18222f;
 }

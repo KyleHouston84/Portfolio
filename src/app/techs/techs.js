@@ -14,6 +14,10 @@ class TechsController {
         $scope.currentView = view;
       }
     };
+    $scope.getRadius = function (percent) {
+      console.log("here", percent);
+      return 180 * (percent / 100);
+    };
   }
 }
 
