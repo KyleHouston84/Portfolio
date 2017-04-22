@@ -7,6 +7,7 @@ import {parallax} from './app/directives/parallax';
 import {scroller} from './app/directives/scroller';
 import {nav} from './app/directives/navigation';
 import {progress} from './app/directives/progress';
+import {video} from './app/directives/video';
 
 import {main} from './app/main';
 import {header} from './app/header';
@@ -18,7 +19,7 @@ import {footer} from './app/footer';
 import './stylesheets/index.scss';
 
 angular
-  .module('app', [techsModule, worksModule, parallax, scroller, nav, progress])
+  .module('app', [techsModule, worksModule, parallax, scroller, nav, progress, video])
   .component('app', main)
   .component('portfolioHeader', header)
   .component('portfolioTitle', title)
