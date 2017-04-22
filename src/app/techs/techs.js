@@ -8,15 +8,12 @@ class TechsController {
       });
     $scope.currentView = '';
     $scope.filter = function (view) {
+      console.log("filter");
       if (view === 'all') {
         $scope.currentView = '';
       } else {
         $scope.currentView = view;
       }
-    };
-    $scope.getRadius = function (percent) {
-      console.log("here", percent);
-      return 180 * (percent / 100);
     };
   }
 }

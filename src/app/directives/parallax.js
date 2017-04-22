@@ -12,8 +12,6 @@ class ParallaxDirective {
     };
   }
 
-  controller() {}
-
   link(scope, elem) {
     const setPosition = function () {
       const calcValY = (elem.prop('offsetTop') - window.pageYOffset) * (scope.parallaxRatio ? scope.parallaxRatio : 1.1) - (scope.parallaxVerticalOffset || 0);

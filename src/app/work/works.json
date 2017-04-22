@@ -1,5 +1,34 @@
 [
   {
+    "key": "pembroke",
+    "title": "Pembroke Pines City Center",
+    "screen": "/assets/images/screens/pembroke.jpg",
+    "text1": "Saffire Client",
+    "url" : "http://www.pembrokepinescitycenter.org/",
+    "technologies": [
+      {
+        "name": "SASS",
+        "icon": "/images/icons/sass.png"
+      },
+      {
+        "name": "bourbon",
+        "icon": "/images/icons/bourbon.png"
+      },
+      {
+        "name": "Saffire SPARK CMS",
+        "icon": "/images/icons/spark.png"
+      },
+      {
+        "name": "YouTube API",
+        "icon": "/images/icons/youtube.png"
+      },
+      {
+        "name": "JQuery",
+        "icon": "/images/icons/jquery.png"
+      }
+    ]
+  },
+  {
     "key": "skout",
     "title": "SKOUT Backcountry",
     "screen": "/assets/images/screens/skout.jpg",
@@ -137,35 +166,6 @@
       {
         "name": "Google Maps API",
         "icon": "/images/icons/google-maps.png"
-      },
-      {
-        "name": "JQuery",
-        "icon": "/images/icons/jquery.png"
-      }
-    ]
-  },
-  {
-    "key": "pembroke",
-    "title": "Pembroke Pines City Center",
-    "screen": "/assets/images/screens/pembroke.jpg",
-    "text1": "Saffire Client",
-    "url" : "http://www.pembrokepinescitycenter.org/",
-    "technologies": [
-      {
-        "name": "SASS",
-        "icon": "/images/icons/sass.png"
-      },
-      {
-        "name": "bourbon",
-        "icon": "/images/icons/bourbon.png"
-      },
-      {
-        "name": "Saffire SPARK CMS",
-        "icon": "/images/icons/spark.png"
-      },
-      {
-        "name": "YouTube API",
-        "icon": "/images/icons/youtube.png"
       },
       {
         "name": "JQuery",

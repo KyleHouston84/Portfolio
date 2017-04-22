@@ -7,7 +7,7 @@ class ScrollerDirective {
     this.scope = true;
   }
 
-  link(scope, elem, $rootScope) {
+  link(scope) {
     let winHeight = 0;
     let offset = 0;
 
@@ -15,7 +15,6 @@ class ScrollerDirective {
       winHeight = window.innerHeight;
       offset = winHeight / 2;
       checkPos();
-      console.log("skrollr root:", $rootScope);
     }
 
     function checkPos() {
@@ -23,11 +22,9 @@ class ScrollerDirective {
       if (scrollPos < (winHeight / 2)) {
         scope.shade = 'dark';
         scope.section = 'section-intro';
-        console.log(scope.shade);
       } else if (scrollPos < (winHeight * 2) - offset) {
         scope.shade = 'light';
         scope.section = 'section-about';
-        console.log(scope.shade);
       } else if (scrollPos < (winHeight * 3) - offset) {
         scope.shade = 'dark';
         scope.section = 'section-skills';
@@ -35,7 +32,7 @@ class ScrollerDirective {
         scope.shade = 'light';
         scope.section = 'section-portfolio';
       } else if (scrollPos < (winHeight * 5) - offset) {
-        // scope.shade = 'dark';
+        scope.shade = 'dark';
         scope.section = 'section-contact';
       }
       scope.$apply();
@@ -45,7 +42,7 @@ class ScrollerDirective {
       console.log(text);
     };
 
-    // set the viewport height
+    // set the viewport height and scroll position
     angular.element(window).bind('load', setHeight);
     angular.element(window).bind('scroll', checkPos);
   }

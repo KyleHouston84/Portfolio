@@ -1,6 +1,15 @@
 <div class="work-preview" style="background-image: url('{{ $ctrl.work.screen }}')">
-  <h3 class="work-h3">
-      <!-- {{ $ctrl.work.title }} -->
-  </h3>
-  <!-- <p>{{ $ctrl.work.text1 }}</p> -->
+  <div class="hover-overlay">
+    <h3 class="work-h3">
+      {{ $ctrl.work.title }}
+    </h3>
+    <article class="description">
+      <p>{{ $ctrl.work.text1 }}</p>
+    </article>
+    <div class="buttons">
+      <a href="{{ $ctrl.work.url }}" class="external-link" target="_blank">
+        <span class="fa fa-external-link fa-2x"></span>
+      </a>
+    </div>
+  </div>
 </div>

@@ -1,9 +1,5 @@
 <div class="tech" data-skill="{{ $ctrl.tech.level }}">
-  <div class="progress-bar" style="-webkit-transform: rotate({{ $parent.getRadius($ctrl.tech.level) }}deg); transform: rotate({{ $parent.getRadius($ctrl.tech.level) }}deg);">
-    <div class="progress-label" style="-webkit-transform: rotate(-{{ $parent.getRadius($ctrl.tech.level) }}deg); transform: rotate(-{{ $parent.getRadius($ctrl.tech.level) }}deg);">
-      {{ $ctrl.tech.level }}%
-    </div>
-  </div>
+  <progress-level class="progress-bar" progress-percent="{{ $ctrl.tech.level }}"></progress-level>
   <div class="progress-mask"></div>
   <div class="tech-logo" style="background-image: url('{{ $ctrl.tech.logo }}')"></div>
   <!-- <img class="tech-logo" ng-src="{{ $ctrl.tech.logo }}"/> -->

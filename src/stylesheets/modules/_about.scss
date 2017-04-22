@@ -14,16 +14,14 @@
           align-items: center;
   padding: 0 40px;
   overflow: visible;
-  // &::before {
-  //   content: '';
-  //   display: block;
-  //   position: absolute;
-  //   top: 0;
-  //   width: 0;
-  //   height: 0;
-  //   border-bottom: 10vh solid #FFF;
-  //   border-left: 10vh solid transparent;
-  // }
+}
+
+h1.about-h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding-left: 0 10px;
 }
 
 .introduction {

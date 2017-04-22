@@ -1,4 +1,4 @@
-$background: #18222F; /*was rgba(0, 0, 0, 0.8)*/
+$background: #0c1219; /*was rgba(0, 0, 0, 0.8)*/
 $tech-background: #151e2a;
 
 section.skills {
@@ -15,6 +15,10 @@ section.skills {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  max-width: 1120px;
+  max-height: 730px;
+  padding-top: 16px;
+  margin: 0 auto;
 }
 .filter-buttons {
   .button {
@@ -23,7 +27,7 @@ section.skills {
 }
 .card {
   width: 120px;
-  margin: 10px;
+  margin: 10px 15px;
   text-align: center;
   .tech {
     display: block;
@@ -91,9 +95,10 @@ section.skills {
 .progress-label {
   position: absolute;
   top: 0;
-  left: -32px;
+  left: -23px;
   color: rgba(255,255,255,0.4);
   opacity: 1;
+  font-size: 10px;
   -webkit-transition: all 1s ease 0.6s;
   transition: all 1s ease 0.6s;
 }
@@ -102,7 +107,8 @@ section.skills {
     transform: rotate(0) !important;
   }
   .progress-label {
-    opacity: 0;
+    // opacity: 0;
+    transform: rotate(0) !important;
   }
 }
 .progress-mask {
@@ -110,5 +116,5 @@ section.skills {
   bottom: -7px;
   width: 119px;
   height: 59px;
-  background: #18222f;
+  background: $background;
 }

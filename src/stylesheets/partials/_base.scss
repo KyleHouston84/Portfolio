@@ -16,6 +16,16 @@ html, body, #root {
   font-weight: $regular-weight;
 }
 
+h1 {
+  span {
+    color: #F40500;
+  }
+}
+
+a.external-link {
+  color: #fff;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
