@@ -4,13 +4,13 @@ var express = require('express');
 var app = express();
 
 //app.use(express.logger('dev')); //log cinnections for dev
-app.use(gzippo.staticGzip("" + __dirname + "/dist")); //Point Heroku at the dist directory
+app.use(gzippo.staticGzip("" + __dirname + "/dist")); //Point server at the dist directory
 app.use(function(req, res, next){
   res.status(404);
 
   // respond with html page
   if (req.accepts('html')) {
-		res.status(404).redirect('/#')
+		res.status(404).redirect('/')
     return;
   }
 

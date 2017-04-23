@@ -1,0 +1,201 @@
+[
+  {
+    "key": "pembroke",
+    "title": "Pembroke Pines City Center",
+    "screen": "/assets/images/screens/pembroke.jpg",
+    "text1": "A city center for Pembroke Pines, Florida. This site is built on Saffire's SPARK CMS using ASP.net, Angular, JQuery, and SASS.",
+    "url" : "http://www.pembrokepinescitycenter.org/",
+    "technologies": [
+      {
+        "name": "SASS",
+        "icon": "/images/icons/sass.png"
+      },
+      {
+        "name": "bourbon",
+        "icon": "/images/icons/bourbon.png"
+      },
+      {
+        "name": "Saffire SPARK CMS",
+        "icon": "/images/icons/spark.png"
+      },
+      {
+        "name": "YouTube API",
+        "icon": "/images/icons/youtube.png"
+      },
+      {
+        "name": "JQuery",
+        "icon": "/images/icons/jquery.png"
+      }
+    ]
+  },
+  {
+    "key": "skout",
+    "title": "SKOUT Backcountry",
+    "screen": "/assets/images/screens/skout.jpg",
+    "text1": "Ecom site for a local organic trail foods company. Built using nodejs, MongoDB, Angular, SASS, bootstrap and integration Moltin API for inventory management.",
+    "url" : "http://skout-store.herokuapp.com",
+    "technologies": [
+      {
+        "name": "Angular",
+        "icon": "/images/icons/angular.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/images/icons/mongo.png"
+      },
+      {
+        "name": "express",
+        "icon": "/images/icons/express.png"
+      },
+      {
+        "name": "Node.js",
+        "icon": "/images/icons/node.png"
+      },
+      {
+        "name": "SASS",
+        "icon": "/images/icons/sass.png"
+      },
+      {
+        "name": "gulp",
+        "icon": "/images/icons/gulp.png"
+      }
+    ]
+  },
+  {
+    "key": "PDXCleanEats",
+    "title": "PDX Clean Eats",
+    "screen": "/assets/images/screens/pdxcleaneats.jpg",
+    "text1": "Web application for seaching resturant inspection recods for Portland area resturants. This application recieves it's data from civicapps API and is built using nodejs, express, angularjs, and bootstrap.",
+    "url" : "http://www.pdxcleaneats.com/",
+    "technologies": [
+      {
+        "name": "Node.js",
+        "icon": "/images/icons/node.png"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "/images/icons/bootstrap.png"
+      },
+      {
+        "name": "express",
+        "icon": "/images/icons/express.png"
+      },
+      {
+        "name": "Google Maps API",
+        "icon": "/images/icons/google-maps.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/images/icons/mongo.png"
+      },
+      {
+        "name": "CivicApps API",
+        "icon": "/images/icons/civicapps.png"
+      }
+    ]
+  },
+  {
+    "key": "LM",
+    "title": "Live Monumental",
+    "screen": "/assets/images/screens/keenLM.jpg",
+    "text1": "A standalone site for a KEEN initiative to save national parks by declaring them as national monuments. Buils using SASS, bootstrap, and youtube API.",
+    "url" : "http://www.keenfootwear.com/livemonumental",
+    "technologies": [
+      {
+        "name": "Bootstrap",
+        "icon": "/images/icons/bootstrap.png"
+      },
+      {
+        "name": "SASS",
+        "icon": "/images/icons/sass.png"
+      },
+      {
+        "name": "Google Maps API",
+        "icon": "/images/icons/google-maps.png"
+      },
+      {
+        "name": "YouTube API",
+        "icon": "/images/icons/google-maps.png"
+      },
+      {
+        "name": "Postano",
+        "icon": "/images/icons/postano.png"
+      }
+    ]
+  },
+  {
+    "key": "nwwaf",
+    "title": "NW Washington Fair & Event Center",
+    "screen": "/assets/images/screens/nwwfair.jpg",
+    "text1": "An fair and event center website built on Saffire's SPARK CMS using ASP.net, Angular, JQuery, and SASS.",
+    "url" : "http://nwwafair.com/",
+    "technologies": [
+      {
+        "name": "SASS",
+        "icon": "/images/icons/sass.png"
+      },
+      {
+        "name": "Saffire SPARK CMS",
+        "icon": "/images/icons/spark.png"
+      },
+      {
+        "name": "JQuery",
+        "icon": "/images/icons/jquery.png"
+      }
+    ]
+  },
+  {
+    "key": "showare",
+    "title": "Showare Center",
+    "screen": "/assets/images/screens/showare.jpg",
+    "text1": "An event center in Kent WA, built on Saffire's SPARK CMS using ASP.net, Angular, JQuery, and SASS.",
+    "url" : "http://www.showarecenter.com/",
+    "technologies": [
+      {
+        "name": "SASS",
+        "icon": "/images/icons/sass.png"
+      },
+      {
+        "name": "bourbon",
+        "icon": "/images/icons/bourbon.png"
+      },
+      {
+        "name": "Saffire SPARK CMS",
+        "icon": "/images/icons/spark.png"
+      },
+      {
+        "name": "Google Maps API",
+        "icon": "/images/icons/google-maps.png"
+      },
+      {
+        "name": "JQuery",
+        "icon": "/images/icons/jquery.png"
+      }
+    ]
+  },
+  {
+    "key": "uopx",
+    "title": "University of Pheonix Stadium",
+    "screen": "/assets/images/screens/uopx.jpg",
+    "text1": "A large stadium that host the Arizona Cardinals and the Final Fou tournament among other events. Built on Saffire's SPARK CMS using ASP.net, Angular, JQuery, and SASS.",
+    "url" : "http://www.universityofphoenixstadium.com/",
+    "technologies": [
+      {
+        "name": "SASS",
+        "icon": "/images/icons/sass.png"
+      },
+      {
+        "name": "Saffire SPARK CMS",
+        "icon": "/images/icons/spark.png"
+      },
+      {
+        "name": "Google maps API",
+        "icon": "/images/icons/youtube.png"
+      },
+      {
+        "name": "JQuery",
+        "icon": "/images/icons/jquery.png"
+      }
+    ]
+  }
+]
