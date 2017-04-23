@@ -15,12 +15,23 @@ section.work {
   width: 120vw;
   position: relative;
   left: -10vw;
+  @media screen and (max-width:780px) {
+    flex-wrap: wrap;
+    left: 0;
+    width: 100%;
+  }
   .portfolio-screen {
     width: 25%;
     position: relative;
     transform: skewX(-10deg);
     overflow: hidden;
     transition: all 0.3s ease;
+    @media screen and (max-width:780px) {
+      transform: skewX(0);
+      &:hover {
+        width: 25% !important;
+      }
+    }
 
     .hover-overlay {
       width: 100%;
@@ -35,6 +46,9 @@ section.work {
       left: 0;
       opacity: 0;
       background: rgba(0,0,0,0.55);
+      @media screen and (max-width:780px) {
+        transform: skewX(0);
+      }
     }
 
     &:hover {
@@ -42,6 +56,10 @@ section.work {
       .hover-overlay {
         opacity: 1;
       }
+    }
+    &:last-child:hover {
+      width: 100%;
+      left: -6%;
     }
   }
   .work-preview {
@@ -54,5 +72,15 @@ section.work {
     background-position: center;
     transform: skewX(10deg);
     overflow: hidden;
+    @media screen and (max-width:780px) {
+      transform: skewX(0);
+      width: 100%;
+      left: 0;
+    }
+  }
+}
+@media screen and (min-width: 781px) {
+  .description {
+    max-width: 30%;
   }
 }

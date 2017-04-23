@@ -16,16 +16,6 @@
           align-items: center;
   text-align: center;
 
-  .logo {
-    display: block;
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 6px;
-    left: 6px;
-    background: url(/assets/images/logo_red.png) no-repeat center/contain;
-  }
-
   .text {
     z-index: 1;
     color: #fff;

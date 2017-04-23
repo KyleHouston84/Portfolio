@@ -13,7 +13,6 @@ class VideoBackground {
 
   link(scope, element) {
     function setSource() {
-      console.log("Load Video", element);
       scope.videoReady = scope.videoSource;
       element[0].load();
       element[0].play();

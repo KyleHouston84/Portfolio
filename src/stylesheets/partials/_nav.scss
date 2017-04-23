@@ -82,12 +82,117 @@
       }
     }
   }
+  input,
+  label {
+    display: none;
+  }
+  @media screen and (max-width: 718px) {
+    top: 0;
+    transform: translateY(0);
+    width: 50px;
+  }
 }
+
+@media screen and (max-width: 718px) {
+  ul.navigation-menu {
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    padding-top: 33px;
+    z-index: -1;
+    right: 0;
+    transform: translateX(120%);
+    transition: all 0.3s;
+  }
+  .main-nav {
+    input,
+    label {
+      display: block;
+    }
+    ul li span {
+      transform: translateX(0);
+      opacity: 1;
+      background: #313030;
+      white-space: nowrap;
+      &::after {
+        display: none;
+      }
+    }
+    ul a {
+      padding-right: 0;
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .dark {
+
+  }
+}
+
+#spinner-form {
+  display:none;
+  &:checked {
+    ~ .spinner-spin {
+      > .horizontal {
+        opacity: 0;
+      }
+      > .diagonal.part-1 {
+        transform:rotate(225deg);
+        -webkit-transform:rotate(225deg);
+        margin-top:23px;
+      }
+      > .diagonal.part-2 {
+        transform:rotate(-225deg);
+        -webkit-transform:rotate(-225deg);
+        margin-top:-16px;
+      }
+    }
+    ~ ul.navigation-menu {
+      transform: translateX(0);
+    }
+  }
+}
+
+.spinner-spin {
+  position:relative;
+  float:left;
+  height:50px;
+  width:50px;
+  cursor:pointer;
+  > .spinner {
+    height:5px;
+    width:50px;
+    background-color:#000;
+    transition: all 0.3s;
+    &.diagonal.part-1 {
+      position:relative;
+      float:left;
+      margin-top:10px;
+    }
+    &.diagonal.part-2 {
+      position:relative;
+      float:left;
+      margin-top:6px;
+    }
+    &.horizontal {
+      position:relative;
+      float:left;
+      margin-top:6px;
+    }
+  }
+}
+
+
+
 .dark {
   .main-nav {
     ul a::after {
       border: 2px solid #fff;
     }
+  }
+  .spinner-spin > .spinner {
+    background-color: #fff;
   }
 }
 .light {
@@ -102,6 +207,7 @@
   .main-nav {
     li#nav-intro {
       span {
+        background: #F40500;
         opacity: 1;
         -webkit-transform: translateX(0);
                 transform: translateX(0);
@@ -124,6 +230,7 @@
   .main-nav {
     li#nav-about {
       span {
+        background: #F40500;
         opacity: 1;
         -webkit-transform: translateX(0);
                 transform: translateX(0);
@@ -146,6 +253,7 @@
   .main-nav {
     li#nav-skills {
       span {
+        background: #F40500;
         opacity: 1;
         -webkit-transform: translateX(0);
                 transform: translateX(0);
@@ -168,6 +276,7 @@
   .main-nav {
     li#nav-portfolio {
       span {
+        background: #F40500;
         opacity: 1;
         -webkit-transform: translateX(0);
                 transform: translateX(0);
@@ -190,6 +299,7 @@
   .main-nav {
     li#nav-contact {
       span {
+        background: #F40500;
         opacity: 1;
         -webkit-transform: translateX(0);
                 transform: translateX(0);
