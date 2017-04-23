@@ -2,7 +2,9 @@
   "dependencies": {
     "angular": "^1.5.0",
     "expose-loader": "^0.7.3",
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "express": "^3.0.0",
+    "gzippo": "^0.2.0"
   },
   "devDependencies": {
     "@types/angular": "^1.5.16",
@@ -42,7 +44,8 @@
     "postcss-loader": "^0.8.0",
     "autoprefixer": "^6.2.2",
     "json-loader": "^0.5.4",
-    "extract-text-webpack-plugin": "^2.0.0-beta.3",
+    "caniuse-db": "1.0.30000615",
+    "extract-text-webpack-plugin": "2.0.0-beta.5",
     "webpack-fail-plugin": "^1.0.5",
     "ng-annotate-loader": "^0.0.10",
     "html-loader": "^0.4.3",
