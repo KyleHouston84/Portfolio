@@ -104,11 +104,13 @@ section.skills {
 }
 .main-container:not(.section-skills) {
   .progress-bar {
-    transform: rotate(0) !important;
+    -webkit-transform: rotate(0) !important;
+            transform: rotate(0) !important;
   }
   .progress-label {
-    // opacity: 0;
-    transform: rotate(0) !important;
+    /* opacity: 0;*/
+    -webkit-transform: rotate(0) !important;
+            transform: rotate(0) !important;
   }
 }
 .progress-mask {

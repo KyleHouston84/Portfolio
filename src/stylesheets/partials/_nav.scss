@@ -88,7 +88,8 @@
   }
   @media screen and (max-width: 718px) {
     top: 0;
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     width: 50px;
   }
 }
@@ -101,7 +102,9 @@
     padding-top: 33px;
     z-index: -1;
     right: 0;
-    transform: translateX(120%);
+    -webkit-transform: translateX(120%);
+            transform: translateX(120%);
+    -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
   .main-nav {
@@ -110,7 +113,8 @@
       display: block;
     }
     ul li span {
-      transform: translateX(0);
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
       opacity: 1;
       background: #313030;
       white-space: nowrap;
@@ -149,7 +153,8 @@
       }
     }
     ~ ul.navigation-menu {
-      transform: translateX(0);
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
     }
   }
 }
@@ -164,6 +169,7 @@
     height:5px;
     width:50px;
     background-color:#000;
+    -webkit-transition: all 0.3s;
     transition: all 0.3s;
     &.diagonal.part-1 {
       position:relative;
