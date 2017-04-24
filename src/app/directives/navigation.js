@@ -4,10 +4,9 @@ import angular from 'angular';
 
 class NavigationDirective {
   /* @ngInject */
-  constructor($scope) {
+  constructor() {
     this.restrict = 'A';
     this.scope = true;
-    console.log("constructor root", $scope);
   }
 
   link(scope) {

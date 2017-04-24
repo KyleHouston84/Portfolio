@@ -37,9 +37,11 @@ section.work {
     overflow: hidden;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    height: 100%;
     @media screen and (max-width:780px) {
       -webkit-transform: skewX(0);
               transform: skewX(0);
+              height: 50%;
       &:hover {
         width: 25% !important;
       }

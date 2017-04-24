@@ -124,6 +124,31 @@
     ]
   },
   {
+    "key": "uopx",
+    "title": "University of Pheonix Stadium",
+    "screen": "/assets/images/screens/uopx.jpg",
+    "text1": "A large stadium that host the Arizona Cardinals and the Final Fou tournament among other events. Built on Saffire's SPARK CMS using ASP.net, Angular, JQuery, and SASS.",
+    "url" : "http://www.universityofphoenixstadium.com/",
+    "technologies": [
+      {
+        "name": "SASS",
+        "icon": "/images/icons/sass.png"
+      },
+      {
+        "name": "Saffire SPARK CMS",
+        "icon": "/images/icons/spark.png"
+      },
+      {
+        "name": "Google maps API",
+        "icon": "/images/icons/youtube.png"
+      },
+      {
+        "name": "JQuery",
+        "icon": "/images/icons/jquery.png"
+      }
+    ]
+  },
+  {
     "key": "nwwaf",
     "title": "NW Washington Fair & Event Center",
     "screen": "/assets/images/screens/nwwfair.jpg",
@@ -166,31 +191,6 @@
       {
         "name": "Google Maps API",
         "icon": "/images/icons/google-maps.png"
-      },
-      {
-        "name": "JQuery",
-        "icon": "/images/icons/jquery.png"
-      }
-    ]
-  },
-  {
-    "key": "uopx",
-    "title": "University of Pheonix Stadium",
-    "screen": "/assets/images/screens/uopx.jpg",
-    "text1": "A large stadium that host the Arizona Cardinals and the Final Fou tournament among other events. Built on Saffire's SPARK CMS using ASP.net, Angular, JQuery, and SASS.",
-    "url" : "http://www.universityofphoenixstadium.com/",
-    "technologies": [
-      {
-        "name": "SASS",
-        "icon": "/images/icons/sass.png"
-      },
-      {
-        "name": "Saffire SPARK CMS",
-        "icon": "/images/icons/spark.png"
-      },
-      {
-        "name": "Google maps API",
-        "icon": "/images/icons/youtube.png"
       },
       {
         "name": "JQuery",
